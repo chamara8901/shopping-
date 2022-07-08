@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
+    "format": "prettier --write \"{gatsby-*.js,docs/**/*.js}\"",
     "plop": "plop"
   },
   "dependencies": {

@@ -95,9 +95,9 @@ Here is a bit of an overview of the directory structure of the project:
 
 | Directory | Description |
 | :---- | :---- |
-| `src/components/` | Stores reusable elements across the site. (e.g. BlogPreview element) |
-| `src/pages/` | Stores routes for a user to go to based on each `.js` file and nested folder (e.g. `src/pages/about.js` creates a route `/about` in the web app) |
-| `src/helpers` | Stores mock data for the blog or product list and general utility functions. |
+| `docs/components/` | Stores reusable elements across the site. (e.g. BlogPreview element) |
+| `docs/pages/` | Stores routes for a user to go to based on each `.js` file and nested folder (e.g. `docs/pages/about.js` creates a route `/about` in the web app) |
+| `docs/helpers` | Stores mock data for the blog or product list and general utility functions. |
 
 ### Making changes to the Hero component
 
@@ -114,11 +114,11 @@ On the homepage of the website and a few other places, there is a full-width ima
 />
 ```
 
-You can see it in action under [`src/pages/index.js`](./src/pages/index.js) or see the component in [`src/components/Hero/Hero.js`](./src/components/Hero/Hero.js).
+You can see it in action under [`docs/pages/index.js`](./docs/pages/index.js) or see the component in [`docs/components/Hero/Hero.js`](./docs/components/Hero/Hero.js).
 
 ### Making content changes to the Header or Footer
 
-The project contains a file named `src/config.json`. Inside of this file describes the content of the header links (`headerLinks`) as well as the footer links (`footerLinks`). For the header, each element in the array has a base structure of:
+The project contains a file named `docs/config.json`. Inside of this file describes the content of the header links (`headerLinks`) as well as the footer links (`footerLinks`). For the header, each element in the array has a base structure of:
 
 ```json
 {
